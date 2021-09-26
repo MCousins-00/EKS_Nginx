@@ -44,4 +44,4 @@ resource "aws_security_group" "all_worker_mgmt" {
       "192.168.0.0/16",
     ]
   }
-
+  }
