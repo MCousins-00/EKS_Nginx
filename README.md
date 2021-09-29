@@ -12,4 +12,8 @@ Step 4 Run command below to verifiy the infractucture that will be created VPB, 
 Step 5 Deploy the environment with:
 #terraform apply
 
-Step 6 Accessing Cluster. 
+Step 6 Accessing cluster run command.
+#aws eks update-kubeconfig \
+    --region <region-code> \
+    --name <cluster_name> \
+    --role-arn arn:aws:iam::<aws_account_id>:role/<role_name>
