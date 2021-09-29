@@ -11,3 +11,5 @@ Step 4 Run command below to verifiy the infractucture that will be created VPB, 
 
 Step 5 Deploy the environment with:
 #terraform apply
+
+Step 6 Accessing Cluster. 
